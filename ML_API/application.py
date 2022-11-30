@@ -32,5 +32,5 @@ def predict():
             return("ERROR: ", e)
 
 if __name__ == '__main__':
-    application.run(debug=True, port=8000)
+    application.run()
     
